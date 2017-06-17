@@ -1,0 +1,142 @@
+
+        table {
+            border-collapse: collapse;
+        }
+        td {
+            width: 70px;
+            height: 70px;
+            vertical-align: middle;
+            text-align: center;
+        }
+        .white_cell, .black_cell {
+            border: 1px solid #000;
+        }
+        .white_cell {
+            background: #fff;
+        }
+        .black_cell {
+            background: #413f3f;
+        }
+        #chess_board_char [data-content="1"]:after {
+            content: 'П';
+            font-size: 2em;
+            color: #000;
+            text-shadow: 0 0 7px #fff;
+        }
+        #chess_board_char [data-content="11"]:after {
+            content: 'П';
+            font-size: 2em;
+            color: #fff;
+            text-shadow: 0 0 7px #000;
+        }
+        #chess_board_char [data-content="2"]:after {
+            content: 'К';
+            font-size: 2em;
+            color: #000;
+            text-shadow: 0 0 7px #fff;
+        }
+        #chess_board_char [data-content="12"]:after {
+            content: 'К';
+            font-size: 2em;
+            color: #fff;
+            text-shadow: 0 0 7px #000;
+        }
+        #chess_board_char [data-content="3"]:after {
+            content: 'C';
+            font-size: 2em;
+            color: #000;
+            text-shadow: 0 0 7px #fff;
+        }
+        #chess_board_char [data-content="13"]:after {
+            content: 'C';
+            font-size: 2em;
+            color: #fff;
+            text-shadow: 0 0 7px #000;
+        }
+        #chess_board_char [data-content="4"]:after {
+            content: 'Л';
+            font-size: 2em;
+            color: #000;
+            text-shadow: 0 0 7px #fff;
+        }
+        #chess_board_char [data-content="14"]:after {
+            content: 'Л';
+            font-size: 2em;
+            color: #fff;
+            text-shadow: 0 0 7px #000;
+        }
+        #chess_board_char [data-content="5"]:after {
+            content: 'Ф';
+            font-size: 2em;
+            color: #000;
+            text-shadow: 0 0 7px #fff;
+        }
+        #chess_board_char [data-content="15"]:after {
+            content: 'Ф';
+            font-size: 2em;
+            color: #fff;
+            text-shadow: 0 0 7px #000;
+        }
+        #chess_board_char [data-content="6"]:after {
+            content: 'Кр';
+            font-size: 2em;
+            color: #000;
+            text-shadow: 0 0 7px #fff;
+        }
+        #chess_board_char [data-content="16"]:after {
+            content: 'Кр';
+            font-size: 2em;
+            color: #fff;
+            text-shadow: 0 0 7px #000;
+        }
+        /*
+        ches board image
+        */
+        #chess_board_image [data-content="1"] {
+            background-image: url(chess-figures.png);
+            background-position: 72px -17px;
+        }
+        #chess_board_image [data-content="11"] {
+            background-image: url(chess-figures.png);
+            background-position: 72px -109px;
+        }
+        #chess_board_image [data-content="2"] {
+            background-image: url(chess-figures.png);
+            background-position: 146px -17px;
+        }
+        #chess_board_image [data-content="12"] {
+            background-image: url(chess-figures.png);
+            background-position: 146px -109px;
+        }
+        #chess_board_image [data-content="3"] {
+            background-image: url(chess-figures.png);
+            background-position: 372px -17px;
+        }
+        #chess_board_image [data-content="13"] {
+            background-image: url(chess-figures.png);
+            background-position: 372px -109px;
+        }
+        #chess_board_image [data-content="4"] {
+            background-image: url(chess-figures.png);
+            background-position: -1px -17px;
+        }
+        #chess_board_image [data-content="14"] {
+            background-image: url(chess-figures.png);
+            background-position: -1px -109px;
+        }
+        #chess_board_image [data-content="5"] {
+            background-image: url(chess-figures.png);
+            background-position: -154px -17px;
+        }
+        #chess_board_image [data-content="15"] {
+            background-image: url(chess-figures.png);
+            background-position: -154px -109px;
+        }
+        #chess_board_image [data-content="6"] {
+            background-image: url(chess-figures.png);
+            background-position: -228px -17px;
+        }
+        #chess_board_image [data-content="16"] {
+            background-image: url(chess-figures.png);
+            background-position: -228px -109px;
+        }

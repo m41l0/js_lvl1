@@ -1,0 +1,19 @@
+table {
+    border: 0;
+    border-spacing: 0;
+    border-collapse: collapse;
+    text-align: center;
+
+}
+td {
+    border: 1px solid #000;
+    height: 40px;
+    width: 40px;
+}
+.black {
+    background-color: black;
+}
+
+.chess_header {
+    background-color: #d9d9d9;
+}

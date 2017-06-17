@@ -1,0 +1,27 @@
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+td {
+    width: 50px;
+    height: 50px;
+    border: 1px solid blue;
+    text-align: center;
+    color: red;
+}
+
+.white {
+    background: #fff;
+}
+
+.black {
+    background: #000;
+}
+
+.brown {
+    background: brown;
+}
+
+.sandybrown {
+    background: sandybrown;
+}

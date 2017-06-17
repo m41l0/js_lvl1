@@ -1,0 +1,68 @@
+table {
+	margin: 0 auto;
+	width: 700px;
+	height: 700px;
+	border-collapse: collapse;
+}
+td {
+	border: 1px solid #111;
+	width: 70px;
+  height: 70px;
+}
+.outer {
+	background: lightgray;
+	border-style: hidden;
+	text-align: center;
+	width: 20px;
+	height: 20px;
+	color: #fff;
+}
+.black-pawns {
+	background-image: url(img/chess-figures.png);
+	background-position: 76px -15px;
+}
+.white-pawns {
+	background-image: url(img/chess-figures.png);	
+	background-position: 76px -109px;
+}
+.white-rook {
+	background-image: url(img/chess-figures.png);
+	background-position: 2px -106px;
+}
+.white-knight {
+	background-image: url(img/chess-figures.png);
+	background-position: 150px -106px;
+}
+.white-bishop {
+	background-image: url(img/chess-figures.png);
+	background-position: 376px -106px;
+}
+.white-queen {
+	background-image: url(img/chess-figures.png);
+	background-position: -150px -106px;
+}
+.white-king {
+	background-image: url(img/chess-figures.png);
+	background-position: -225px -106px;
+}
+
+.black-rook {
+	background-image: url(img/chess-figures.png);
+	background-position: 2px -15px;
+}
+.black-knight {
+	background-image: url(img/chess-figures.png);
+	background-position: 150px -15px;
+}
+.black-bishop {
+	background-image: url(img/chess-figures.png);
+	background-position: 376px -15px;
+}
+.black-queen {
+	background-image: url(img/chess-figures.png);
+	background-position: -150px -15px;
+}
+.black-king {
+	background-image: url(img/chess-figures.png);
+	background-position: -225px -15px;
+}

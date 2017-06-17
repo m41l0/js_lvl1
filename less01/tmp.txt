@@ -1,0 +1,66 @@
+/*
+ 1. Напишите программу, которая последовательно запрашивает у пользователя два числа,
+ после чего сравнивает их и выводит одно из сообщений: «Первое число больше второго»,
+ «Второе число больше первого» или «Числа равны».
+ Не забудьте учесть ситуации, когда пользователь ввел строку вместо числа или не ввел ничего.
+ Для получения числа от пользователя пригодится функция prompt, а для вывода — alert.
+
+ 2. Напишите программу, которая выводит в консоль все високосные годы от 1900 до 2016.
+ Алгоритм определения високосного года найдите в интернете самостоятельно.
+ Попробуйте усовершенствовать программу, чтобы она принимала начальный и конечный год от пользователя.
+ Учтите ситуацию, когда начальный год оказался больше конечного.
+
+ 3. Напишите программу, которая последовательно запрашивает у пользователя числа при помощи prompt,
+ пока он не нажмет «отмена». После нажатия «Отмена» программа выводит сумму введенных чисел при помощи alert.
+ Если пользователь ввел не число (например, строку), то это значение не суммируется с остальными.*/
+'use strict';
+
+var a = prompt('Введите первое число: ', '');
+
+
+function dop1() {
+
+
+    console.log(typeof a);
+/*    if (isNaN(a))
+    {
+        alert("Must input numbers");
+        return false;
+    } else if (a === "") {
+        alert("user pressed OK, but the input field was empty");
+    } else if (a) {
+        alert("user typed something and hit OK");
+    } else {
+        alert("user hit cancel")
+    }*/
+
+    // var b = +prompt('Введите второе число: ', '');
+}
+
+/*function checkInp()
+{
+    var x=document.forms["myForm"]["age"].value;
+    if (isNaN(x))
+    {
+        alert("Must input numbers");
+        return false;
+    }
+}*/
+
+/*You can do this using javascript. No need for Jquery or Regex
+
+function isNumeric(n) {
+    return !isNaN(parseFloat(n)) && isFinite(n);
+}
+While implementing
+
+var val = $('yourinputelement').val();
+if(isNumeric(val)) { alert('number'); }
+else { alert('not number'); }
+Update: To check if a string has numbers in them, you can use regular expressions to do that
+
+var matches = val.match(/\d+/g);
+if (matches != null) {
+    alert('number');
+}*/
+
